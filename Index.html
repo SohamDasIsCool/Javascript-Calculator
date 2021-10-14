@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            Javascript Calculator
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <script src="main.js"></script>
+    <body>
+        <div class="calculator">
+            <div class="input" id="textval"></div>
+            <div class="buttons">
+              <div class="operators">
+                <div id="add" value="+" onclick="display('+')">+</div>
+                <div id="subtract" value="-" onclick="display('-')">-</div>
+                <div id="multiply" value="x" onclick="display('*')">&times;</div>
+                <div id="divide" value="/" onclick="display('/')">&divide;</div>
+                <div class="equal" onclick="calc()">=</div>
+                <div id="clear" onclick="clr()">C</div>
+              </div>
+              <div class="leftPanel">
+                <div class="numbers">
+                  <div value="7" onclick="display('7')">7</div>
+                  <div value="8" onclick="display('8')">8</div>
+                  <div value="9" onclick="display('9')">9</div>
+                </div>
+                <div class="numbers">
+                  <div value="4" onclick="display('4')">4</div>
+                  <div value="5" onclick="display('5')">5</div>
+                  <div value="6" onclick="display('6')">6</div>
+                </div>
+                <div class="numbers">
+                  <div value="1" onclick="display('1')">1</div>
+                  <div value="2" onclick="display('2')">2</div>
+                  <div value="3" onclick="display('3')">3</div>
+                </div>
+                <div class="numbers">
+                  <div value="0" onclick="display('0')">0</div>
+                  <div>.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
